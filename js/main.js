@@ -8,21 +8,21 @@ document.addEventListener('DOMContentLoaded', function () {
 	})
 })
 
-const showMore = document.querySelector('.show-more')
-const productsLength = document.querySelectorAll('.products__item').length
-let items = 8
+// const showMore = document.querySelector('.show-more')
+// const productsLength = document.querySelectorAll('.products__item').length
+// let items = 8
 
-showMore.addEventListener('click', () => {
-	items += 4
-	const array = Array.from(document.querySelector('.products__items').children)
-	const visItems = array.slice(0, items)
+// showMore.addEventListener('click', () => {
+// 	items += 4
+// 	const array = Array.from(document.querySelector('.products__items').children)
+// 	const visItems = array.slice(0, items)
 
-	visItems.forEach(el => el.classList.add('is-visible'))
+// 	visItems.forEach(el => el.classList.add('is-visible'))
 
-	if (visItems.length === productsLength) {
-		showMore.style.display = 'none'
-	}
-})
+// 	if (visItems.length === productsLength) {
+// 		showMore.style.display = 'none'
+// 	}
+// })
 
 window.onload = () => {
 	let input = document.querySelector('#input');
