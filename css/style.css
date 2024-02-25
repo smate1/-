@@ -294,9 +294,9 @@ button {
 	position: relative;
 }
 
-.products__item:nth-child(n + 9) {
+/* .products__item:nth-child(n + 9) {
 	display: none;
-}
+} */
 
 .products__item.is-visible {
 	display: block;
