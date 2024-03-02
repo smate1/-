@@ -662,6 +662,17 @@ button {
 		top: -3px;
 	}
 
+	.menu__list-link--inst::after {
+		content: '';
+		position: absolute;
+		background-image: url('../images/instagram-mob.svg');
+		background-repeat: no-repeat;
+		width: 40px;
+		height: 40px;
+		right: -20px;
+		top: -4px;
+	}
+	
 	.menu__list-link--tik::after {
 		content: '';
 		position: absolute;
