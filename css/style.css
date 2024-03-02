@@ -642,12 +642,12 @@ button {
 	}
 
 	.menu__list-item {
+		list-style: none;
 		font-weight: 400;
 		font-size: 20px;
 	}
 
 	.menu__list-link {
-		list-style: none;
 		position: relative;
 		padding-right: 30px;
 	}
