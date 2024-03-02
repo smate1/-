@@ -588,9 +588,6 @@ button {
 	.products__descr {
 		font-size: 16px;
 	}
-}
-
-@media (max-width: 580px) {
 	.header.open .menu__list {
 		transform: translateX(100%);
 	}
